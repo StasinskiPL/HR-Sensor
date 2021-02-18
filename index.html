@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
     <h2>HR SENSOR</h2>
@@ -15,12 +15,10 @@
     <div>
         <h1>Your hr: <span id="hr"></span></h1>
         <div class="canvas-wrapper">
-            <canvas id="myChart" width="1000px"></canvas>
+            <canvas id="myChart"></canvas>
         </div>
     </div>
 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script src="chart.js" type="module"></script>
-<script src="app.js" type="module"></script>
+<script src="./dist/app.bundle.js"></script>
 </html>

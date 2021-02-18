@@ -1,4 +1,8 @@
+import Chart from "chart.js"
+
+
 const ctx = document.getElementById("myChart").getContext("2d");
+
 const chart = new Chart(ctx, {
   type: "line",
 
@@ -46,7 +50,3 @@ export const updateChart = (value) => {
     chart.update();
   }
 };
-
-// window.addEventListener("click", () =>
-//   updateChart(Math.floor(Math.random() * 100))
-// );

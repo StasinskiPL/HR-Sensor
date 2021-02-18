@@ -1,4 +1,5 @@
 import {updateChart} from "./chart.js";
+import "./style.css";
 
 
 const connect= document.getElementById("connect");
