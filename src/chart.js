@@ -1,5 +1,4 @@
-import Chart from "chart.js"
-
+import Chart from "chart.js";
 
 const ctx = document.getElementById("myChart").getContext("2d");
 
